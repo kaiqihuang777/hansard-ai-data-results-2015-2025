@@ -1,0 +1,16 @@
+{
+  "rows": 3662,
+  "duplicate_contribution_ids": 0,
+  "exact_duplicate_rows": 0,
+  "missing_full_text": 0,
+  "empty_clean_text": 0,
+  "missing_party": 9,
+  "missing_member": 9,
+  "invalid_dates": 0,
+  "date_min": "2015-01-21",
+  "date_max": "2025-12-18",
+  "median_full_words": 623.0,
+  "median_context_words": 129.0,
+  "contexts_under_20_words": 25,
+  "source_columns": 17
+}

@@ -1,0 +1,13 @@
+{
+  "pre_2023_mean": 0.17272907495498657,
+  "post_2023_mean": 0.19928109645843506,
+  "mean_difference_post_minus_pre": 0.026552021503448486,
+  "welch_t": 1.599324107170105,
+  "welch_p": 0.10983732342720032,
+  "segmented_post_2023_level_estimate": 0.11753239082780514,
+  "segmented_post_2023_level_p": 0.0025285089192256045,
+  "annual_segmented_post_2023_level_estimate": 0.11716620462613511,
+  "annual_segmented_post_2023_level_p": 0.13019971983048834,
+  "r_squared": 0.03796494649960058,
+  "n_model": 3662
+}

@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        sentiment_score   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.036
+Method:                 Least Squares   F-statistic:                     14.56
+Date:                Sat, 11 Jul 2026   Prob (F-statistic):           4.22e-23
+Time:                        14:11:27   Log-Likelihood:                -2589.5
+No. Observations:                3662   AIC:                             5199.
+Df Residuals:                    3652   BIC:                             5261.
+Df Model:                           9                                         
+Covariance Type:              cluster                                         
+============================================================================================================
+                                               coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    0.3381      0.036      9.480      0.000       0.268       0.408
+C(House)[T.Lords]                            0.0255      0.022      1.151      0.250      -0.018       0.069
+C(PartyModel)[T.Crossbench]                 -0.1591      0.035     -4.543      0.000      -0.228      -0.090
+C(PartyModel)[T.Labour]                     -0.1809      0.022     -8.297      0.000      -0.224      -0.138
+C(PartyModel)[T.Liberal Democrat]           -0.2063      0.028     -7.312      0.000      -0.262      -0.151
+C(PartyModel)[T.Other]                      -0.1773      0.035     -5.088      0.000      -0.246      -0.109
+C(PartyModel)[T.Scottish National Party]    -0.2781      0.052     -5.346      0.000      -0.380      -0.176
+year_c                                      -0.0180      0.007     -2.551      0.011      -0.032      -0.004
+post_2023                                    0.1175      0.039      3.020      0.003       0.041       0.194
+post_slope                                   0.0096      0.020      0.486      0.627      -0.029       0.048
+==============================================================================
+Omnibus:                      598.535   Durbin-Watson:                   1.782
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              140.716
+Skew:                          -0.108   Prob(JB):                     2.78e-31
+Kurtosis:                       2.065   Cond. No.                         46.5
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

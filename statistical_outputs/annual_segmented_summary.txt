@@ -1,0 +1,27 @@
+                            WLS Regression Results                            
+==============================================================================
+Dep. Variable:                   mean   R-squared:                       0.264
+Model:                            WLS   Adj. R-squared:                 -0.051
+Method:                 Least Squares   F-statistic:                    0.9133
+Date:                Sat, 11 Jul 2026   Prob (F-statistic):              0.482
+Time:                        14:11:27   Log-Likelihood:                 15.947
+No. Observations:                  11   AIC:                            -23.89
+Df Residuals:                       7   BIC:                            -22.30
+Df Model:                           3                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.2421      0.082      2.939      0.003       0.081       0.404
+year_c        -0.0164      0.014     -1.172      0.241      -0.044       0.011
+post_2023      0.1172      0.077      1.513      0.130      -0.035       0.269
+post_slope    -0.0107      0.053     -0.204      0.839      -0.114       0.093
+==============================================================================
+Omnibus:                        2.488   Durbin-Watson:                   1.521
+Prob(Omnibus):                  0.288   Jarque-Bera (JB):                0.811
+Skew:                           0.656   Prob(JB):                        0.666
+Kurtosis:                       3.217   Cond. No.                         32.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
