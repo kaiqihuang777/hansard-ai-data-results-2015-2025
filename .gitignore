@@ -1,0 +1,7 @@
+# macOS metadata is not part of the research package.
+.DS_Store
+__MACOSX/
+
+# Local working files.
+*.tmp
+~$*
