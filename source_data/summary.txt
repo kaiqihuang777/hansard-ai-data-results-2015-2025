@@ -1,0 +1,96 @@
+============================================================
+HANSARD AI CONTRIBUTIONS 2015-2025 — SUMMARY
+============================================================
+
+Generated from Hansard Search API (contributions/Spoken)
+Date range: 2015-01-01 to 2025-12-31
+Keywords (whole-phrase): artificial intelligence, algorithm, algorithmic, automation
+
+--- PER-KEYWORD RAW COUNTS (API TotalResultCount) ---
+  "artificial intelligence"      2322
+  "algorithm"                    596
+  "algorithmic"                  294
+  "automation"                   740
+  RAW SUM (with overlap)         3952
+  DEDUPED (unique ContributionExtId) 3662
+
+--- YEAR DISTRIBUTION (deduped) ---
+  2015:    30  ##
+  2016:   102  ######
+  2017:   267  #################
+  2018:   375  #########################
+  2019:   244  ################
+  2020:   394  ##########################
+  2021:   283  ##################
+  2022:   271  ##################
+  2023:   557  #####################################
+  2024:   499  #################################
+  2025:   640  ##########################################
+
+--- HOUSE DISTRIBUTION ---
+  Commons    2127
+  Lords      1535
+
+--- PARTY DISTRIBUTION ---
+  Conservative                        1561
+  Labour                              1061
+  Liberal Democrat                    341
+  Crossbench                          272
+  Scottish National Party             97
+  Labour (Co-op)                      89
+  Non-affiliated                      65
+  Independent                         59
+  Bishops                             29
+  Green Party                         26
+  Reform UK                           18
+  Democratic Unionist Party           17
+  Plaid Cymru                         4
+  Speaker                             4
+  Alba Party                          3
+  The Independent Group for Change    2
+  Lord Speaker                        2
+  Traditional Unionist Voice          1
+  Your Party                          1
+  Ulster Unionist Party               1
+
+--- MATCHED-KEYWORD BREAKDOWN (deduped, may match multiple) ---
+  artificial intelligence                       2104
+  automation                                    617
+  algorithm                                     486
+  algorithmic                                   193
+  artificial intelligence;automation            96
+  algorithm;artificial intelligence             54
+  algorithmic;artificial intelligence           46
+  algorithm;algorithmic                         29
+  algorithm;algorithmic;artificial intelligence 11
+  algorithm;automation                          8
+  algorithmic;automation                        6
+  algorithm;algorithmic;artificial intelligence;automation 4
+  algorithmic;artificial intelligence;automation 4
+  algorithm;artificial intelligence;automation  3
+  algorithm;algorithmic;automation              1
+
+--- FIELD LIST ---
+  ContributionExtId
+  ItemId
+  SittingDateOnly
+  Year
+  House
+  DebateSection
+  MemberName
+  MemberId
+  Party
+  AttributedTo
+  MatchedKeywords
+  ContributionTextFull
+  ContributionText
+  HansardSection
+  Section
+  DebateSectionExtId
+  SittingDate
+
+Total unique contributions: 3662
+Files:
+  /Users/a111/hansard_ai_data/hansard_ai_contributions.csv
+  /Users/a111/hansard_ai_data/hansard_ai_contributions.json
+  /Users/a111/hansard_ai_data/summary.txt
